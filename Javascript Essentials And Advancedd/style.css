@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+#booking,
+#uname,
+#phone-no,
+#email-id,
+#person {
+    position: relative;
+    bottom: 3px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+input[type="submit"] {
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
